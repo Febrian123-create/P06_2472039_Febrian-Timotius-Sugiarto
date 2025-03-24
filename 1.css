@@ -1,0 +1,100 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login {
+            display: flex;
+            background: white;
+            max-width: 900px;
+            margin:auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align:center;
+        }
+        .login img {
+            width: 40%;
+            object-fit: cover;
+        }
+        .login-content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #2c3e94;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 14px;
+            color: #4b60d6;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        label {
+            color: #2c3e94;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        input {
+            padding: 10px;
+            border: 1px solid #b4c4f8;
+            border-radius: 6px;
+            width: 100%;
+        }
+        button {
+            background: #4b60d6;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #2c3e94;
+        }
+        .social-login {
+            margin-top: 20px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+        }
+        .social-icons a img {
+            width: 32px;
+            height: 32px;
+        }
+        .signup-link {
+            margin-top: 15px;
+        }
+        .signup-link a {
+            color: #2c3e94;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .login {
+                flex-direction: column;
+                align-items: center;
+            }
+            .login img {
+                width: 30%;
+            }
+        }
